@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เหี้ยต้น IoT</title>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+    <style>
+        #H_1{
+            padding-top: 2px;
+            color: #7FE1E1;  
+            font-size: 35px; 
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        #SW_1{
+            margin-top: 30% ;
+            width: 25%;
+            height: 60px;
+            border-radius: 10px ;
+
+            border: solid 0.1px ;
+            background-color: #6666ff;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-weight: bold;
+            
+        }
+        #SW_1.ON{
+            background-color:  #6666ff;
+            color: aliceblue;
+        }
+        #SW_1.OFF{
+            background-color:  #000000;
+            color: aliceblue;
+        }
+
+        #SW_2{
+            margin-top: 5%;
+            width: 25%;
+            height: 60px;
+            border-radius: 10px ;
+            border: solid 0.1px ;
+            background-color: #6666ff;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-weight: bold;
+        }
+        #SW_2.ON{
+            background-color: #6666ff;
+            color: aliceblue;
+        }
+        #SW_2.OFF{
+            background-color: #000000;
+            color: aliceblue;
+        }
+    
+    </style>
+</head>
+<body style="background-image: url(da.jpg) ; background-size: 100%;">
+    <h1 id="H_1">
+        จะกด ก็กด
+    </h1>
+    <div style="text-align: center;">
+        <button id = "SW_1"></button><br><br>
+        <button id = "SW_2"></button>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
